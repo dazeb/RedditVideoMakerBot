@@ -1,0 +1,277 @@
+repo_name: dazeb/RedditVideoMakerBot
+report_id: 3559489fd35f12b4b7c21bf2ec1c3a46
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-11T19:09:12+00:00'
+requested_by: OpenSourceSimon
+provider: github
+branch: master
+detected_tools_count: 20
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/.github/workflows/autoblack.yml
+  detection_source: ".github/workflows/autoblack.yml"
+  last_updated_by: Callum Leslie
+  last_updated_on: 2022-07-07 21:43:30.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lewis Menelaws
+  last_updated_on: 2022-05-26 15:46:56.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-02 19:11:29.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot
+  detection_source: Repo Metadata
+- name: Torch
+  description: An open-source machine learning library and a script language based
+    on the Lua programming language
+  website_url: http://torch.ch/
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dmoralis
+  last_updated_on: 2022-12-19 17:40:42.000000000 Z
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 2.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: RiveN000
+  last_updated_on: 2022-08-14 11:57:11.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.24.24
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-07 17:28:13.000000000 Z
+- name: botocore
+  description: Low-level, data-driven core of boto 3
+  package_url: https://pypi.org/project/botocore
+  version: 1.27.24
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19884/default_b8be3f20d4af87021ae3618d5c50b72c985ea31f.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: NoFailer
+  last_updated_on: 2022-09-08 12:34:48.000000000 Z
+- name: gTTS
+  description: GTTS
+  package_url: https://pypi.org/project/gTTS
+  version: 2.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lewis Menelaws
+  last_updated_on: 2022-05-26 15:46:56.000000000 Z
+- name: moviepy
+  description: Video editing with Python
+  package_url: https://pypi.org/project/moviepy
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20492/default_7e42545a0162c6dd67f6adc715d6eabd6d2d2736.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lewis Menelaws
+  last_updated_on: 2022-05-26 15:46:56.000000000 Z
+- name: praw
+  description: PRAW
+  package_url: https://pypi.org/project/praw
+  version: 7.6.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20605/default_3aa7d93e5dadf8a0123c65abeccd198669792007.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Syed Aman Raza
+  last_updated_on: 2022-12-19 17:39:03.000000000 Z
+- name: pyttsx3
+  description: Text to Speech
+  package_url: https://pypi.org/project/pyttsx3
+  version: '2.90'
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Callum Leslie
+  last_updated_on: 2022-08-09 00:27:38.000000000 Z
+- name: pytube
+  description: A pythonic library for downloading YouTube Videos
+  package_url: https://pypi.org/project/pytube
+  version: 12.1.0
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lewis Menelaws
+  last_updated_on: 2022-06-13 21:10:27.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.28.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-06-30 10:52:49.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: spacy
+  description: Industrial-strength Natural Language Processing
+  package_url: https://pypi.org/project/spacy
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20263/default_1842575018db691e6f93d8a9a1aa65cdc2a55c20.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Simon
+  last_updated_on: 2022-12-19 18:47:39.000000000 Z
+- name: toml
+  description: Python Library for Tom's Obvious, Minimal Language
+  package_url: https://pypi.org/project/toml
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19912/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: RiveN000
+  last_updated_on: 2022-08-14 11:57:11.000000000 Z
+- name: tomlkit
+  description: Style preserving TOML library
+  package_url: https://pypi.org/project/tomlkit
+  version: 0.11.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20350/default_af2b356cd035e5e1c010a45df43c17b898af8c44.png
+  detection_source_url: https://github.com/dazeb/RedditVideoMakerBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: RiveN000
+  last_updated_on: 2022-08-14 11:57:11.000000000 Z
